@@ -468,6 +468,7 @@ border-radius: 4px
    }
    .footer .container{
        display: flex;
+       justify-content: space-between;
    }
    .left-side{
        margin-right: 70px;
@@ -552,18 +553,13 @@ border-radius: 4px
        margin-right: 12px;
 
    }
-   .distribution-label{
+   .distribution-mail{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-   
-       display: block;
-       position: absolute;
-       left: 16px;
-       top: 50%;
-      transform: translateY(-50%);
+    padding: 16px;
    }
    .distribution-btn{
     display:inline-block;
